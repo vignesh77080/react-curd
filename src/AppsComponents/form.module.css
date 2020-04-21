@@ -5,6 +5,13 @@
     margin: 20px 0 15px;
 }
 
+@media (max-width: 600px){
+    .input_wrap label{
+        margin: 0px 0 10px;
+    }
+    
+}
+
 .input_wrap input{
     display: block;
     border: 1px solid #cdcdcd;
@@ -18,7 +25,14 @@
     max-width: 100%;
 }
 
+@media (max-width: 600px){
+    .input_wrap input{
+        padding: 10px;
+    }
+}
+
 .input_wrap input:focus{
     border: 1px solid #0366ee;
     box-shadow: inset 0 1px 1px rgba(0,0,0,.1), 0 0 6px #8cbcfe;
 }
+
