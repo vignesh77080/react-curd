@@ -19,8 +19,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "devDependencies":{
-    "gh-pages": "2.2.0"
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   },
   "eslintConfig": {
     "extends": "react-app"
