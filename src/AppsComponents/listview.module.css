@@ -25,3 +25,10 @@ ul.ul_wrap li span {
     margin: auto;
 }
 
+@media (max-width: 600px){
+    ul.ul_wrap li span{
+        padding: 15px 0;
+        font-size: 14px;
+        word-break: break-all;
+    }
+}
