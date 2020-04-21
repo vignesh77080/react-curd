@@ -1,5 +1,5 @@
 {
-  "homepage": "https://vignesh88090.github.io/react-curd",
+  "homepage": "https://vignesh77080.github.io/react-curd",
   "name": "react-curd",
   "version": "0.1.0",
   "private": true,
@@ -18,6 +18,9 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "devDependencies":{
+    "gh-pages": "2.2.0"
   },
   "eslintConfig": {
     "extends": "react-app"
