@@ -3,6 +3,12 @@
   margin: auto;
 }
 
+@media (max-width: 600px){
+  .app{
+    width: 90%;
+  }
+}
+
 :global input[type="submit"], :global input[type="button"] {
   display: inline-block;
   border: 1px solid #0366ee;
@@ -19,4 +25,12 @@
   text-decoration: none;
   line-height: 1;
   text-transform: capitalize;
+}
+
+@media (max-width: 600px){
+  :global input[type="submit"], :global input[type="button"]{
+    font-size: 12px;
+    padding: 10px;
+    margin: 0 0 0px;
+  }
 }
