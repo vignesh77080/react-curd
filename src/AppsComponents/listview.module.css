@@ -1,0 +1,27 @@
+.list_wrap {
+    width: 100%;
+}
+
+ul.ul_wrap {
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 20px 0;
+    list-style: none;
+}
+
+ul.ul_wrap li {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #d3d3d3;
+}
+
+ul.ul_wrap li span {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: auto;
+}
+

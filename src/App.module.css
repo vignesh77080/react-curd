@@ -1,0 +1,22 @@
+.app {
+  width: 85%;
+  margin: auto;
+}
+
+:global input[type="submit"], :global input[type="button"] {
+  display: inline-block;
+  border: 1px solid #0366ee;
+  border-radius: 4px;
+  background: #0366ee;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 12px 20px;
+  margin: 0 0 10px;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1;
+  text-transform: capitalize;
+}
